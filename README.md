@@ -16,6 +16,7 @@ Installs `Visual Studio Code` with some useful extensions, the `DankMono` font, 
 
 ## Manual steps before installation
 * Download [this gist](https://gist.github.com/asos-oliverwilson/692c8faeed167fe6e16443d6ef2ee40d). 
+* <a href="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/setup.sh" download>Download this script</a>
 
 * Open the terminal and go to the directory where you saved [the gist](https://gist.github.com/asos-oliverwilson/692c8faeed167fe6e16443d6ef2ee40d) and run `sh setup.sh`.
   * You might need to extract the file if you've downloaded it as a zip.
@@ -33,7 +34,6 @@ Disclaimer: you should have some settings files downloaded into the `~/mac-setup
 ### Reboot your mac
 * `Press the apple button in the top left of the screen -> Reboot...`
 
-<!-- ![](gifs/reboot-mac.gif) -->
 <img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/reboot-mac.gif" width="200">
 
 ## Some useful links
