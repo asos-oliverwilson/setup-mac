@@ -15,12 +15,17 @@ Installs `Visual Studio Code` with some useful extensions, the `DankMono` font, 
 * Don't leave your mac as you will be required to enter your password a few times and will be asked to enter/configure git credentials.
 
 ## Manual steps before installation
-* [Download this script](Scripts/setup.sh).
+* Open the Terminal app and run:
+```console
+curl  -o ~/Desktop/setup.sh https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/Scripts/setup.sh
+```
+this will download the `setup.sh` script in this repo for you, so you don't need `git` to obtain this script.
 
-* <a href="Scripts/setup.sh" download>Download plz</a>
+* Open the terminal and go to the directory where you saved the script above (if you didn't change the command above, `cd` into `~/Desktop`) and run:
+```console
+sh setup.sh
+```
 
-* Open the terminal and go to the directory where you saved [the gist](https://gist.github.com/asos-oliverwilson/692c8faeed167fe6e16443d6ef2ee40d) and run `sh setup.sh`.
-  * You might need to extract the file if you've downloaded it as a zip.
 
 ## Manual steps after installation
 Disclaimer: you should have some settings files downloaded into the `~/mac-setup-files` directory.
@@ -35,7 +40,7 @@ Disclaimer: you should have some settings files downloaded into the `~/mac-setup
 ### Reboot your mac
 * `Press the apple button in the top left of the screen -> Reboot...`
 
-<img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/reboot-mac.gif" width="200">
+<img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/reboot-mac.gif" width="400">
 
 ## Some useful links
 * [Download virtualbox](https://www.virtualbox.org/wiki/Downloads) - the cask requires manual intervention, which is distracting from the rest of the setup script.
