@@ -32,7 +32,8 @@ Disclaimer: you should have some settings files downloaded into the `~/mac-setup
 
 ### Reboot your mac
 * `Press the apple button in the top left of the screen -> Reboot...`
-![](reboot mac.gif)
+
+![](gifs/reboot mac.gif)
 
 ## Some useful links
 * [Download virtualbox](https://www.virtualbox.org/wiki/Downloads) - the cask requires manual intervention, which is distracting from the rest of the setup script.
