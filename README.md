@@ -1,5 +1,5 @@
 # Settings
-Get my developer setup the way that I like it on a new mac.
+Follow these steps to mitigate the chore of manually installing all of the programs that you need on your development machine.
 
 Installs `git`, `node`, `yarn`, `npm`, `homebrew`, `google chrome`, `firefox`, `charles`, `copyq`, `docker`, `github for desktop`, `insomnia`, `iterm2`, `postman`, `slack`, `spotify`, `whatsapp`, `zeplin`.
 
