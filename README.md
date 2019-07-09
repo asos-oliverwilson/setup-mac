@@ -18,7 +18,8 @@ This process does the following tasks:
 * Sets `zsh` as the default shell for your machine.
 
 ## Prerequisites
-* You will need an asos github account with access to all of the repos in `asosteam`. Contact Dom Green or Tony Gorman if you don't already have access to these repositories in github.
+* Create a GitHub account with your ASOS email and set the username in the format `asos-firstnamelastname`.
+* Your github account will need access to all of the repos in `asosteam`. Contact Dom Green or Tony Gorman who will be able to grant you access to these repositories in github.
 
 * You will be offered the option to download some of the most popular asos repos, if you wish to do this then you need to [create an access token](https://help.github.com/en/enterprise/2.17/user/articles/creating-a-personal-access-token-for-the-command-line) and use that as your password to install the repos.
 
