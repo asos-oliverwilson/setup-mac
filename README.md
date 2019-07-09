@@ -1,11 +1,21 @@
 # Settings
 Follow these steps to mitigate the chore of manually installing all of the programs that you need on your development machine.
 
-Installs `git`, `node`, `yarn`, `npm`, `homebrew`, `google chrome`, `firefox`, `charles`, `copyq`, `docker`, `github for desktop`, `insomnia`, `iterm2`, `postman`, `slack`, `spotify`, `whatsapp`, `zeplin`.
+This process does the following tasks:
 
-Sets `zsh` as the default shell for your machine.
+* Installs `git`, `node`, `yarn`, `npm`, `homebrew`, `google chrome`, `firefox`, `charles`, `copyq`, `docker`, `github for desktop`, `insomnia`, `iterm2`, `postman`, `slack`, `spotify`, `whatsapp`, `zeplin`.
 
-Installs `Visual Studio Code` with some useful extensions, the `DankMono` font, and some opinionated settings.
+* Installs `Visual Studio Code` with some useful extensions, the `DankMono` font, and some opinionated settings.
+
+* Installs some packages globally (`jest` and `eslint`)
+
+* Installs all of the browsers that we are required to support.
+
+* Offers to set your git username and email.
+
+* Offers the option to clone some of the most popular ASOS repositories.
+
+* Sets `zsh` as the default shell for your machine.
 
 ## Prerequisites
 * You will need an asos github account with access to all of the repos in `asosteam`. Contact Dom Green or Tony Gorman if you don't already have access to these repositories in github.
@@ -37,8 +47,8 @@ Disclaimer: you should have some settings files downloaded into the `~/mac-setup
 
 * Go to `Preferences -> Profiles -> Keys -> Load Preset...` and select _Natural Text Editing_ - you can now jump around the text using the alt+arrow keys.
 
-### Reboot your mac
-* `Press the apple button in the top left of the screen -> Reboot...`
+### Restart your mac
+* `Press the apple button in the top left of the screen -> Restart...`
 
 <img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/reboot-mac.gif" width="400">
 
