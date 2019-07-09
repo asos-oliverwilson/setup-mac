@@ -43,7 +43,7 @@ Disclaimer: you should have some settings files downloaded into the `~/mac-setup
 
 ### iTerm2
 * Go to `Preferences -> Profiles -> Colors -> Color Presets -> Import...` and select `~/mac-setup-files/iterm2/iterm2-color-preset.itermcolors`. Then select the `iterm2-color-preset` option from the presets.
-<img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/set-iterm2-colour-preset.gif" width="800">
+<img src="https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/gifs/set-iterm2-colour-preset.gif">
 
 * Go to `Preferences -> Profiles -> Text -> Font -> Change Font` and select a font that has _for Powerline_ in the name. Change your font size here too if you wish.
 
