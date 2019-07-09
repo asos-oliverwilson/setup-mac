@@ -28,7 +28,7 @@ This process does the following tasks:
 ## Manual steps before installation
 * Open the Terminal app and run:
 ```console
-curl  -o ~/Desktop/setup.sh https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/Scripts/setup.sh
+curl  -o ~/Desktop/setup.sh https://raw.githubusercontent.com/asos-oliverwilson/setup-mac/master/scripts/setup.sh
 ```
 this will download the `setup.sh` script in this repo for you, so you don't need `git` to obtain this script.
 
