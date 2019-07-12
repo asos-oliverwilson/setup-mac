@@ -180,6 +180,6 @@ RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-
 		cd ~/.oh-my-zsh/plugins/zsh-autosuggestions && git pull
 	fi
 # copy zsh settings over
-	yes | cp ~/mac-setup-files/.zshrc ~/.zshrc
+	yes | cp ~/mac-setup-files/zsh/.zshrc ~/.zshrc
 
 chsh -s "$(command -v zsh)" "${USER}"
