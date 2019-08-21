@@ -1,4 +1,4 @@
-# Settings
+# Mac Developer Setup
 Follow these steps to mitigate the chore of manually installing all of the programs that you need on your development machine.
 
 This process does the following tasks:

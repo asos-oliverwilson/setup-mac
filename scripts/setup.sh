@@ -128,7 +128,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 defaults write com.apple.screencapture location ~/Desktop/screenshots
 killall SystemUIServer
-yes | cp -a ~/mac-setup-files/DankMono/otf/. ~/Library/Fonts
+yes | cp -a ~/mac-setup-files/fonts/DankMono/otf/. ~/Library/Fonts
 
 # Make asos directory and clone repos into it
 read -t 60 -p "Would you like to download some of the asos repos? [y/n]" -n 1 -r CLONE_ASOS_REPOS_REPLY
@@ -180,6 +180,6 @@ RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-
 		cd ~/.oh-my-zsh/plugins/zsh-autosuggestions && git pull
 	fi
 # copy zsh settings over
-	yes | cp ~/mac-setup-files/.zshrc ~/.zshrc
+	yes | cp ~/mac-setup-files/zsh/.zshrc ~/.zshrc
 
 chsh -s "$(command -v zsh)" "${USER}"
